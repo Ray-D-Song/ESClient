@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-card {
+  @apply
+  w-80
+  h-80
+  rounded-lg
+  m-12
+  text-2xl
+  bg-primary
+  resize-none
+  p-2
+  outline-none
+  text-white-green
+}
+
+.display-card {
+  @apply
+  w-96
+  h-96
+  rounded-lg
+  m-12
+  mt-2
+  text-2xl
+  bg-sescondary
+  resize-none
+  p-2
+  outline-none
+  text-white-green
+}
+
+.text-card {
+  @apply
+  hover:cursor-pointer
+  hover:bg-hover-card
+  w-full
+  text-center
+  rounded-lg
+  p-1
+  leading-10
+}
+
+.input-box {
+  @apply
+  w-96
+  h-12
+  rounded-lg
+  mx-12
+  text-2xl
+  pl-4
+  bg-primary
+  outline-none
+  text-white-green
+  border
+  border-solid
+  border-gray-500
+}
